@@ -1,0 +1,35 @@
+# reloadMessage: The message players see after reloading the plugin
+# noPermMessage: The message players see after trying to reload the plugin without permission
+# startMessage: The message players see after the drop party starts
+# stopMessage: The message players see after the drop party stops
+# enableMessage: The message players see after enabling drop parties
+# disbleMessage: The message players see after disabling drop parties
+# countMessage: The message players see when the countdown is counting down
+# consoleMessage: The message sent to console after it uses a command it cannot
+# helpMessage: The message players see after using the help command
+# length: The length of the DP
+# rewardDelay: The delay between two rewards
+# votesRequired: The amount of required votes to start the DP
+# sounds: The list of sounds played when a reward is given
+
+general:
+  reloadMessage: '&eSuccessfully reloaded SquidParties!'
+  noPermMessage: '&4You do not have access to that command.'
+  startMessage: '&eThe drop party is started!'
+  stopMessage: '&eThe drop party is over.'
+  enableMessage: '&eYou are now participating in drop parties.'
+  disableMessage: '&eYou are no longer participating in drop parties.'
+  countMessage: '&eDrop party starting in &6<time> seconds&e!'
+  consoleMessage: 'Sorry, but you cannot use this command.'
+  helpMessage:
+  - '&6Oo-----------------------oOo-----------------------oO'
+  - '&2/squidparties reload &f- &aReload the plugin'
+  - '&2/squidparties start &f- &aStart the drop party'
+  - '&2/squidparties stop &f- &aStop the drop party'
+  - '&6Oo-----------------------oOo-----------------------oO'
+settings:
+  length: 120
+  rewardDelay: 5
+  votesRequired: 5
+  sounds:
+  - 'CAT_MEOW'

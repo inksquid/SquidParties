@@ -1,0 +1,39 @@
+name: SquidParties
+version: ${project.version}
+main: me.inksquid.squidparties.SquidParties
+depend: [Votifier]
+author: inksquid
+commands:
+  squidparties:
+    description: Reload the plugin
+    permission: squidparties.help
+    usage: "Usage: /squidparties [reload/start/stop]"
+  dp:
+    description: Participate in drop parties
+    permission: squidparties.dp
+    usage: "Usage: /dp"
+permissions:
+  squidparties.*:
+    description: Gives access to all permissions.
+    default: op
+    children:
+      squidparties.help: true
+      squidparties.reload: true
+      squidparties.start: true
+      squidparties.stop: true
+      squidparties.dp: true
+  squidparties.help:
+    description: Allows you to get command help
+    default: op
+  squidparties.reload:
+    description: Allows you to reload the plugin
+    default: op
+  squidparties.start:
+    description: Allows you to start the DP
+    default: op
+  squidparties.stop:
+    description: Allows you to stop the DP
+    default: op
+  squidparties.dp:
+    description: Allows you to participate in drop parties
+    default: op

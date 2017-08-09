@@ -1,0 +1,1 @@
+Undocumented VoteParty plugin I did back in 2014.
